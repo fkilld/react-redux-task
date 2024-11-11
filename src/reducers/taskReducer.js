@@ -2,7 +2,9 @@
 import { ADD_TASK, DELETE_TASK, UPDATE_TASK } from '../actions/taskActions'
 
 const initialState = {
-  tasks: [],
+  tasks: [
+    {id:1,title:'idk azad'}
+  ],
 }
 
 const taskReducer = (state = initialState, action) => {
